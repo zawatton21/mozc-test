@@ -1,0 +1,49 @@
+{
+    "classes": [
+        {
+            "className": "QColorSpace",
+            "enums": [
+                {
+                    "isClass": false,
+                    "isFlag": false,
+                    "name": "NamedColorSpace",
+                    "values": [
+                        "SRgb",
+                        "SRgbLinear",
+                        "AdobeRgb",
+                        "DisplayP3",
+                        "ProPhotoRgb"
+                    ]
+                },
+                {
+                    "isClass": true,
+                    "isFlag": false,
+                    "name": "Primaries",
+                    "values": [
+                        "Custom",
+                        "SRgb",
+                        "AdobeRgb",
+                        "DciP3D65",
+                        "ProPhotoRgb"
+                    ]
+                },
+                {
+                    "isClass": true,
+                    "isFlag": false,
+                    "name": "TransferFunction",
+                    "values": [
+                        "Custom",
+                        "Linear",
+                        "Gamma",
+                        "SRgb",
+                        "ProPhotoRgb"
+                    ]
+                }
+            ],
+            "gadget": true,
+            "qualifiedClassName": "QColorSpace"
+        }
+    ],
+    "inputFile": "qcolorspace.h",
+    "outputRevision": 68
+}

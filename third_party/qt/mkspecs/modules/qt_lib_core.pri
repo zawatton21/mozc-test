@@ -1,0 +1,19 @@
+QT.core.VERSION = 6.6.1
+QT.core.name = QtCore
+QT.core.module = QtCore
+QT.core.libs = $$QT_MODULE_LIB_BASE
+QT.core.ldflags = 
+QT.core.includes = $$QT_MODULE_LIB_BASE/QtCore.framework/Headers
+QT.core.frameworks = $$QT_MODULE_LIB_BASE
+QT.core.bins = $$QT_MODULE_BIN_BASE
+QT.core.plugin_types = permissions
+QT.core.depends =  
+QT.core.uses = libatomic
+QT.core.module_config = v2 lib_bundle
+QT.core.CONFIG = moc resources
+QT.core.DEFINES = QT_CORE_LIB
+QT.core.enabled_features = cxx11_future cxx17_filesystem std-atomic64 regularexpression shortcut systemsemaphore xmlstream xmlstreamreader xmlstreamwriter textdate datestring process processenvironment temporaryfile library settings filesystemwatcher filesystemiterator itemmodel proxymodel sortfilterproxymodel transposeproxymodel translation easingcurve gestures commandlineparser cborstreamreader cborstreamwriter permissions shared rpath framework c++20 c++2a signaling_nan thread future shared shared rpath c++20 c++2a reduce_exports
+QT.core.disabled_features = clock-monotonic eventfd glib inotify mimetype sharedmemory cpp-winrt identityproxymodel concatenatetablesproxymodel stringlistmodel animation jalalicalendar islamiccivilcalendar timezone static cross_compile pkg-config debug_and_release separate_debug_info appstore-compliant simulator_and_device force_asserts c++2b c++2b reduce_relocations wasm-simd128 wasm-exceptions zstd concurrent dbus openssl-linked opensslv11 opensslv30
+QT_CONFIG += cxx11_future cxx17_filesystem std-atomic64 regularexpression shortcut systemsemaphore xmlstream xmlstreamreader xmlstreamwriter textdate datestring process processenvironment temporaryfile library settings filesystemwatcher filesystemiterator itemmodel proxymodel sortfilterproxymodel transposeproxymodel translation easingcurve gestures commandlineparser cborstreamreader cborstreamwriter permissions shared rpath framework c++20 c++2a signaling_nan thread future shared shared rpath c++20 c++2a reduce_exports
+QT_MODULES += core
+

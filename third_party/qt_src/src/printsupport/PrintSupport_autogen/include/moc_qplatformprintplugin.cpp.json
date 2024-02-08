@@ -1,0 +1,17 @@
+{
+    "classes": [
+        {
+            "className": "QPlatformPrinterSupportPlugin",
+            "object": true,
+            "qualifiedClassName": "QPlatformPrinterSupportPlugin",
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qplatformprintplugin.h",
+    "outputRevision": 68
+}

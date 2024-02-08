@@ -1,0 +1,370 @@
+{
+	"BUILD_DIR" : "/Users/madblack-21/Github/mozc/src/third_party/qt_src/src/printsupport/PrintSupport_autogen",
+	"CMAKE_BINARY_DIR" : "/Users/madblack-21/Github/mozc/src/third_party/qt_src",
+	"CMAKE_CURRENT_BINARY_DIR" : "/Users/madblack-21/Github/mozc/src/third_party/qt_src/src/printsupport",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/Users/madblack-21/Github/mozc/src/third_party/qt_src/src/printsupport",
+	"CMAKE_EXECUTABLE" : "/opt/homebrew/Cellar/cmake/3.28.1/bin/cmake",
+	"CMAKE_LIST_FILES" : 
+	[
+		"/Users/madblack-21/Github/mozc/src/third_party/qt_src/src/printsupport/CMakeLists.txt",
+		"/Users/madblack-21/Github/mozc/src/third_party/qt_src/cmake/modulecppexports.h.in",
+		"/Users/madblack-21/Github/mozc/src/third_party/qt_src/src/printsupport/configure.cmake",
+		"/opt/homebrew/Cellar/cmake/3.28.1/share/cmake/Modules/FindCups.cmake",
+		"/opt/homebrew/Cellar/cmake/3.28.1/share/cmake/Modules/FindPackageHandleStandardArgs.cmake",
+		"/opt/homebrew/Cellar/cmake/3.28.1/share/cmake/Modules/FindPackageMessage.cmake",
+		"/Users/madblack-21/Github/mozc/src/third_party/qt_src/cmake/QtModuleConfig.cmake.in",
+		"/opt/homebrew/Cellar/cmake/3.28.1/share/cmake/Modules/BasicConfigVersion-AnyNewerVersion.cmake.in",
+		"/Users/madblack-21/Github/mozc/src/third_party/qt_src/cmake/QtCMakePackageVersionFile.cmake.in",
+		"/Users/madblack-21/Github/mozc/src/third_party/qt_src/cmake/ModuleDescription.json.in",
+		"/Users/madblack-21/Github/mozc/src/third_party/qt_src/cmake/QtFileConfigure.txt.in",
+		"/Users/madblack-21/Github/mozc/src/third_party/qt_src/cmake/QtFileConfigure.txt.in",
+		"/Users/madblack-21/Github/mozc/src/third_party/qt_src/cmake/QtFileConfigure.txt.in"
+	],
+	"CMAKE_SOURCE_DIR" : "/Users/madblack-21/Github/mozc/src/third_party/qt_src",
+	"DEP_FILE" : "/Users/madblack-21/Github/mozc/src/third_party/qt_src/src/printsupport/PrintSupport_autogen/deps",
+	"DEP_FILE_RULE_NAME" : "PrintSupport_autogen/timestamp",
+	"HEADERS" : 
+	[
+		[
+			"/Users/madblack-21/Github/mozc/src/third_party/qt_src/include/QtPrintSupport/qtprintsupportexports.h",
+			"Mu",
+			"JTL4HCI5EK/moc_qtprintsupportexports.cpp",
+			null
+		],
+		[
+			"/Users/madblack-21/Github/mozc/src/third_party/qt_src/src/printsupport/CMakeFiles/PrintSupport.dir/cmake_pch_arm64.hxx",
+			"Mu",
+			"LBQOF2HTWO/moc_cmake_pch_arm64.cpp",
+			null
+		],
+		[
+			"/Users/madblack-21/Github/mozc/src/third_party/qt_src/src/printsupport/CMakeFiles/PrintSupport.dir/cmake_pch_arm64.objcxx.hxx",
+			"Mu",
+			"LBQOF2HTWO/moc_cmake_pch_arm64.objcxx.cpp",
+			null
+		],
+		[
+			"/Users/madblack-21/Github/mozc/src/third_party/qt_src/src/printsupport/PrintSupport_fake_header.h",
+			"Mu",
+			"EWIEGA46WW/moc_PrintSupport_fake_header.cpp",
+			null
+		],
+		[
+			"/Users/madblack-21/Github/mozc/src/third_party/qt_src/src/printsupport/kernel/qpaintengine_alpha_p.h",
+			"Mu",
+			"7GB2EGQPHR/moc_qpaintengine_alpha_p.cpp",
+			null
+		],
+		[
+			"/Users/madblack-21/Github/mozc/src/third_party/qt_src/src/printsupport/kernel/qpaintengine_preview_p.h",
+			"Mu",
+			"7GB2EGQPHR/moc_qpaintengine_preview_p.cpp",
+			null
+		],
+		[
+			"/Users/madblack-21/Github/mozc/src/third_party/qt_src/src/printsupport/kernel/qplatformprintdevice.h",
+			"Mu",
+			"7GB2EGQPHR/moc_qplatformprintdevice.cpp",
+			null
+		],
+		[
+			"/Users/madblack-21/Github/mozc/src/third_party/qt_src/src/printsupport/kernel/qplatformprintersupport.h",
+			"Mu",
+			"7GB2EGQPHR/moc_qplatformprintersupport.cpp",
+			null
+		],
+		[
+			"/Users/madblack-21/Github/mozc/src/third_party/qt_src/src/printsupport/kernel/qplatformprintplugin.h",
+			"Mu",
+			"7GB2EGQPHR/moc_qplatformprintplugin.cpp",
+			null
+		],
+		[
+			"/Users/madblack-21/Github/mozc/src/third_party/qt_src/src/printsupport/kernel/qprint_p.h",
+			"Mu",
+			"7GB2EGQPHR/moc_qprint_p.cpp",
+			null
+		],
+		[
+			"/Users/madblack-21/Github/mozc/src/third_party/qt_src/src/printsupport/kernel/qprintdevice_p.h",
+			"Mu",
+			"7GB2EGQPHR/moc_qprintdevice_p.cpp",
+			null
+		],
+		[
+			"/Users/madblack-21/Github/mozc/src/third_party/qt_src/src/printsupport/kernel/qprintengine.h",
+			"Mu",
+			"7GB2EGQPHR/moc_qprintengine.cpp",
+			null
+		],
+		[
+			"/Users/madblack-21/Github/mozc/src/third_party/qt_src/src/printsupport/kernel/qprintengine_pdf_p.h",
+			"Mu",
+			"7GB2EGQPHR/moc_qprintengine_pdf_p.cpp",
+			null
+		],
+		[
+			"/Users/madblack-21/Github/mozc/src/third_party/qt_src/src/printsupport/kernel/qprinter.h",
+			"Mu",
+			"7GB2EGQPHR/moc_qprinter.cpp",
+			null
+		],
+		[
+			"/Users/madblack-21/Github/mozc/src/third_party/qt_src/src/printsupport/kernel/qprinter_p.h",
+			"Mu",
+			"7GB2EGQPHR/moc_qprinter_p.cpp",
+			null
+		],
+		[
+			"/Users/madblack-21/Github/mozc/src/third_party/qt_src/src/printsupport/kernel/qprinterinfo.h",
+			"Mu",
+			"7GB2EGQPHR/moc_qprinterinfo.cpp",
+			null
+		],
+		[
+			"/Users/madblack-21/Github/mozc/src/third_party/qt_src/src/printsupport/kernel/qprinterinfo_p.h",
+			"Mu",
+			"7GB2EGQPHR/moc_qprinterinfo_p.cpp",
+			null
+		],
+		[
+			"/Users/madblack-21/Github/mozc/src/third_party/qt_src/src/printsupport/kernel/qtprintsupportglobal.h",
+			"Mu",
+			"7GB2EGQPHR/moc_qtprintsupportglobal.cpp",
+			null
+		],
+		[
+			"/Users/madblack-21/Github/mozc/src/third_party/qt_src/src/printsupport/kernel/qtprintsupportglobal_p.h",
+			"Mu",
+			"7GB2EGQPHR/moc_qtprintsupportglobal_p.cpp",
+			null
+		],
+		[
+			"/Users/madblack-21/Github/mozc/src/third_party/qt_src/src/printsupport/platform/macos/qcocoaprintdevice_p.h",
+			"Mu",
+			"O7JFALSRXY/moc_qcocoaprintdevice_p.cpp",
+			null
+		],
+		[
+			"/Users/madblack-21/Github/mozc/src/third_party/qt_src/src/printsupport/platform/macos/qcocoaprintersupport_p.h",
+			"Mu",
+			"O7JFALSRXY/moc_qcocoaprintersupport_p.cpp",
+			null
+		],
+		[
+			"/Users/madblack-21/Github/mozc/src/third_party/qt_src/src/printsupport/platform/macos/qpaintengine_mac_p.h",
+			"Mu",
+			"O7JFALSRXY/moc_qpaintengine_mac_p.cpp",
+			null
+		],
+		[
+			"/Users/madblack-21/Github/mozc/src/third_party/qt_src/src/printsupport/platform/macos/qprintengine_mac_p.h",
+			"Mu",
+			"O7JFALSRXY/moc_qprintengine_mac_p.cpp",
+			null
+		],
+		[
+			"/Users/madblack-21/Github/mozc/src/third_party/qt_src/src/printsupport/widgets/qprintpreviewwidget.h",
+			"Mu",
+			"IMAN36LHMA/moc_qprintpreviewwidget.cpp",
+			null
+		]
+	],
+	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
+	"INCLUDE_DIR" : "/Users/madblack-21/Github/mozc/src/third_party/qt_src/src/printsupport/PrintSupport_autogen/include",
+	"MOC_COMPILATION_FILE" : "/Users/madblack-21/Github/mozc/src/third_party/qt_src/src/printsupport/PrintSupport_autogen/mocs_compilation.cpp",
+	"MOC_DEFINITIONS" : 
+	[
+		"GL_SILENCE_DEPRECATION",
+		"PrintSupport_EXPORTS",
+		"QT_ASCII_CAST_WARNINGS",
+		"QT_BUILDING_QT",
+		"QT_BUILD_PRINTSUPPORT_LIB",
+		"QT_CORE_LIB",
+		"QT_DEPRECATED_WARNINGS",
+		"QT_DISABLE_DEPRECATED_UP_TO=0x050000",
+		"QT_EXPLICIT_QFILE_CONSTRUCTION_FROM_PATH",
+		"QT_GUI_LIB",
+		"QT_LEAN_HEADERS=1",
+		"QT_MOC_COMPAT",
+		"QT_NO_AS_CONST",
+		"QT_NO_CAST_TO_ASCII",
+		"QT_NO_DEBUG",
+		"QT_NO_EXCEPTIONS",
+		"QT_NO_FOREACH",
+		"QT_NO_JAVA_STYLE_ITERATORS",
+		"QT_NO_NARROWING_CONVERSIONS_IN_CONNECT",
+		"QT_NO_QEXCHANGE",
+		"QT_NO_USING_NAMESPACE",
+		"QT_USE_QSTRINGBUILDER",
+		"QT_WARN_DEPRECATED_UP_TO=0x070000",
+		"QT_WIDGETS_LIB",
+		"_LARGEFILE64_SOURCE",
+		"_LARGEFILE_SOURCE"
+	],
+	"MOC_DEPEND_FILTERS" : 
+	[
+		[
+			"Q_PLUGIN_METADATA",
+			"[\n][ \t]*Q_PLUGIN_METADATA[ \t]*\\([^\\)]*FILE[ \t]*\"([^\"]+)\""
+		]
+	],
+	"MOC_INCLUDES" : 
+	[
+		"/Users/madblack-21/Github/mozc/src/third_party/qt_src/include",
+		"/Users/madblack-21/Github/mozc/src/third_party/qt_src/include/QtPrintSupport",
+		"/Users/madblack-21/Github/mozc/src/third_party/qt_src/lib/QtPrintSupport.framework/Headers",
+		"/Users/madblack-21/Github/mozc/src/third_party/qt_src/src/printsupport",
+		"/Users/madblack-21/Github/mozc/src/third_party/qt_src/src/printsupport/dialogs",
+		"/Users/madblack-21/Github/mozc/src/third_party/qt_src/src/printsupport/widgets",
+		"/Users/madblack-21/Github/mozc/src/third_party/qt_src/include/QtPrintSupport/6.6.1",
+		"/Users/madblack-21/Github/mozc/src/third_party/qt_src/include/QtPrintSupport/6.6.1/QtPrintSupport",
+		"/Users/madblack-21/Github/mozc/src/third_party/qt_src/include/QtCore",
+		"/Users/madblack-21/Github/mozc/src/third_party/qt_src/lib/QtCore.framework/Headers",
+		"/Users/madblack-21/Github/mozc/src/third_party/qt_src/mkspecs/macx-clang",
+		"/Users/madblack-21/Github/mozc/src/third_party/qt_src/include/QtGui",
+		"/Users/madblack-21/Github/mozc/src/third_party/qt_src/lib/QtGui.framework/Headers",
+		"/Users/madblack-21/Github/mozc/src/third_party/qt_src/include/QtWidgets",
+		"/Users/madblack-21/Github/mozc/src/third_party/qt_src/lib/QtWidgets.framework/Headers",
+		"/Users/madblack-21/Github/mozc/src/third_party/qt_src/src/corelib",
+		"/Users/madblack-21/Github/mozc/src/third_party/qt_src/include/QtCore/6.6.1",
+		"/Users/madblack-21/Github/mozc/src/third_party/qt_src/include/QtCore/6.6.1/QtCore",
+		"/Users/madblack-21/Github/mozc/src/third_party/qt_src/src/gui",
+		"/Users/madblack-21/Github/mozc/src/third_party/qt_src/include/QtGui/6.6.1",
+		"/Users/madblack-21/Github/mozc/src/third_party/qt_src/include/QtGui/6.6.1/QtGui",
+		"/Users/madblack-21/Github/mozc/src/third_party/qt_src/src/widgets",
+		"/Users/madblack-21/Github/mozc/src/third_party/qt_src/include/QtWidgets/6.6.1",
+		"/Users/madblack-21/Github/mozc/src/third_party/qt_src/include/QtWidgets/6.6.1/QtWidgets",
+		"/Users/madblack-21/Github/mozc/src/third_party/qt_src/lib/QtCore.framework",
+		"/Users/madblack-21/Github/mozc/src/third_party/qt_src/lib/QtGui.framework",
+		"/Users/madblack-21/Github/mozc/src/third_party/qt_src/lib/QtWidgets.framework",
+		"/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include",
+		"/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1",
+		"/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include",
+		"/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"
+	],
+	"MOC_MACRO_NAMES" : 
+	[
+		"Q_OBJECT",
+		"Q_GADGET",
+		"Q_GADGET_EXPORT",
+		"Q_NAMESPACE",
+		"Q_NAMESPACE_EXPORT",
+		"Q_ENUM_NS"
+	],
+	"MOC_OPTIONS" : [ "--output-json" ],
+	"MOC_PATH_PREFIX" : false,
+	"MOC_PREDEFS_CMD" : 
+	[
+		"/usr/bin/clang++",
+		"-std=c++20",
+		"-dM",
+		"-E",
+		"-c",
+		"/opt/homebrew/Cellar/cmake/3.28.1/share/cmake/Modules/CMakeCXXCompilerABI.cpp"
+	],
+	"MOC_PREDEFS_FILE" : "/Users/madblack-21/Github/mozc/src/third_party/qt_src/src/printsupport/PrintSupport_autogen/moc_predefs.h",
+	"MOC_RELAXED_MODE" : false,
+	"MOC_SKIP" : 
+	[
+		"/Users/madblack-21/Github/mozc/src/third_party/qt_src/src/printsupport/qtprintsupport-config.h",
+		"/Users/madblack-21/Github/mozc/src/third_party/qt_src/src/printsupport/qtprintsupport-config_p.h"
+	],
+	"MULTI_CONFIG" : false,
+	"PARALLEL" : 8,
+	"PARSE_CACHE_FILE" : "/Users/madblack-21/Github/mozc/src/third_party/qt_src/src/printsupport/CMakeFiles/PrintSupport_autogen.dir/ParseCache.txt",
+	"QT_MOC_EXECUTABLE" : "/Users/madblack-21/Github/mozc/src/third_party/qt_src/libexec/moc",
+	"QT_UIC_EXECUTABLE" : "",
+	"QT_VERSION_MAJOR" : 6,
+	"QT_VERSION_MINOR" : 6,
+	"SETTINGS_FILE" : "/Users/madblack-21/Github/mozc/src/third_party/qt_src/src/printsupport/CMakeFiles/PrintSupport_autogen.dir/AutogenUsed.txt",
+	"SOURCES" : 
+	[
+		[
+			"/Users/madblack-21/Github/mozc/src/third_party/qt_src/src/printsupport/CMakeFiles/PrintSupport.dir/cmake_pch_arm64.hxx.cxx",
+			"Mu",
+			null
+		],
+		[
+			"/Users/madblack-21/Github/mozc/src/third_party/qt_src/src/printsupport/CMakeFiles/PrintSupport.dir/cmake_pch_arm64.objcxx.hxx.mm",
+			"Mu",
+			null
+		],
+		[
+			"/Users/madblack-21/Github/mozc/src/third_party/qt_src/src/printsupport/kernel/qpaintengine_alpha.cpp",
+			"Mu",
+			null
+		],
+		[
+			"/Users/madblack-21/Github/mozc/src/third_party/qt_src/src/printsupport/kernel/qpaintengine_preview.cpp",
+			"Mu",
+			null
+		],
+		[
+			"/Users/madblack-21/Github/mozc/src/third_party/qt_src/src/printsupport/kernel/qplatformprintdevice.cpp",
+			"Mu",
+			null
+		],
+		[
+			"/Users/madblack-21/Github/mozc/src/third_party/qt_src/src/printsupport/kernel/qplatformprintersupport.cpp",
+			"Mu",
+			null
+		],
+		[
+			"/Users/madblack-21/Github/mozc/src/third_party/qt_src/src/printsupport/kernel/qplatformprintplugin.cpp",
+			"Mu",
+			null
+		],
+		[
+			"/Users/madblack-21/Github/mozc/src/third_party/qt_src/src/printsupport/kernel/qprint.cpp",
+			"Mu",
+			null
+		],
+		[
+			"/Users/madblack-21/Github/mozc/src/third_party/qt_src/src/printsupport/kernel/qprintdevice.cpp",
+			"Mu",
+			null
+		],
+		[
+			"/Users/madblack-21/Github/mozc/src/third_party/qt_src/src/printsupport/kernel/qprintengine_pdf.cpp",
+			"Mu",
+			null
+		],
+		[
+			"/Users/madblack-21/Github/mozc/src/third_party/qt_src/src/printsupport/kernel/qprinter.cpp",
+			"Mu",
+			null
+		],
+		[
+			"/Users/madblack-21/Github/mozc/src/third_party/qt_src/src/printsupport/kernel/qprinterinfo.cpp",
+			"Mu",
+			null
+		],
+		[
+			"/Users/madblack-21/Github/mozc/src/third_party/qt_src/src/printsupport/platform/macos/qcocoaprintdevice.mm",
+			"Mu",
+			null
+		],
+		[
+			"/Users/madblack-21/Github/mozc/src/third_party/qt_src/src/printsupport/platform/macos/qcocoaprintersupport.mm",
+			"Mu",
+			null
+		],
+		[
+			"/Users/madblack-21/Github/mozc/src/third_party/qt_src/src/printsupport/platform/macos/qpaintengine_mac.mm",
+			"Mu",
+			null
+		],
+		[
+			"/Users/madblack-21/Github/mozc/src/third_party/qt_src/src/printsupport/platform/macos/qprintengine_mac.mm",
+			"Mu",
+			null
+		],
+		[
+			"/Users/madblack-21/Github/mozc/src/third_party/qt_src/src/printsupport/widgets/qprintpreviewwidget.cpp",
+			"Mu",
+			null
+		]
+	],
+	"VERBOSITY" : 0
+}

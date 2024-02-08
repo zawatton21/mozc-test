@@ -1,0 +1,2 @@
+/Users/madblack-21/Github/mozc/src/third_party/qt_src/src/platformsupport/devicediscovery/DeviceDiscoverySupportPrivate_autogen/include/../EWIEGA46WW/moc_qdevicediscovery_dummy_p.cpp.json
+/Users/madblack-21/Github/mozc/src/third_party/qt_src/src/platformsupport/devicediscovery/DeviceDiscoverySupportPrivate_autogen/include/../EWIEGA46WW/moc_qdevicediscovery_p.cpp.json

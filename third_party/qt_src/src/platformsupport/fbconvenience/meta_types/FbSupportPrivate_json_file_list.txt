@@ -1,0 +1,3 @@
+/Users/madblack-21/Github/mozc/src/third_party/qt_src/src/platformsupport/fbconvenience/FbSupportPrivate_autogen/include/moc_qfbcursor_p.cpp.json
+/Users/madblack-21/Github/mozc/src/third_party/qt_src/src/platformsupport/fbconvenience/FbSupportPrivate_autogen/include/moc_qfbscreen_p.cpp.json
+/Users/madblack-21/Github/mozc/src/third_party/qt_src/src/platformsupport/fbconvenience/FbSupportPrivate_autogen/include/moc_qfbvthandler_p.cpp.json

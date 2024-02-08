@@ -1,0 +1,12 @@
+#ifndef QT_QTPRINTSUPPORT_MODULE_H
+#define QT_QTPRINTSUPPORT_MODULE_H
+#include <QtPrintSupport/QtPrintSupportDepends>
+#include "qtprintsupportglobal.h"
+#include "qprintengine.h"
+#include "qprinter.h"
+#include "qprinterinfo.h"
+#if QT_CONFIG(printpreviewwidget)
+#include "qprintpreviewwidget.h"
+#endif
+#include "qtprintsupportversion.h"
+#endif

@@ -1,0 +1,19 @@
+QT.widgets.VERSION = 6.6.1
+QT.widgets.name = QtWidgets
+QT.widgets.module = QtWidgets
+QT.widgets.libs = $$QT_MODULE_LIB_BASE
+QT.widgets.ldflags = 
+QT.widgets.includes = $$QT_MODULE_LIB_BASE/QtWidgets.framework/Headers
+QT.widgets.frameworks = $$QT_MODULE_LIB_BASE
+QT.widgets.bins = $$QT_MODULE_BIN_BASE
+QT.widgets.plugin_types = styles
+QT.widgets.depends =  core gui
+QT.widgets.uses = 
+QT.widgets.module_config = v2 lib_bundle
+QT.widgets.CONFIG = uic
+QT.widgets.DEFINES = QT_WIDGETS_LIB
+QT.widgets.enabled_features = style-stylesheet itemviews treewidget listwidget tablewidget abstractbutton commandlinkbutton stackedwidget splitter label formlayout lcdnumber menu lineedit radiobutton spinbox tabbar tabwidget combobox checkbox pushbutton toolbutton toolbar toolbox groupbox buttongroup mainwindow dockwidget resizehandler statusbar menubar contextmenu progressbar abstractslider slider scrollbar scrollarea scroller graphicsview graphicseffect textedit syntaxhighlighter rubberband tooltip statustip sizegrip keysequenceedit dialog dialogbuttonbox messagebox colordialog filedialog progressdialog inputdialog errormessage listview tableview treeview datawidgetmapper columnview
+QT.widgets.disabled_features = datetimeedit textbrowser splashscreen fontcombobox mdiarea dial calendarwidget fontdialog wizard completer fscompleter undoview
+QT_CONFIG += style-stylesheet itemviews treewidget listwidget tablewidget abstractbutton commandlinkbutton stackedwidget splitter label formlayout lcdnumber menu lineedit radiobutton spinbox tabbar tabwidget combobox checkbox pushbutton toolbutton toolbar toolbox groupbox buttongroup mainwindow dockwidget resizehandler statusbar menubar contextmenu progressbar abstractslider slider scrollbar scrollarea scroller graphicsview graphicseffect textedit syntaxhighlighter rubberband tooltip statustip sizegrip keysequenceedit dialog dialogbuttonbox messagebox colordialog filedialog progressdialog inputdialog errormessage listview tableview treeview datawidgetmapper columnview
+QT_MODULES += widgets
+

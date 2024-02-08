@@ -1,0 +1,374 @@
+{
+    "classes": [
+        {
+            "className": "QTreeWidget",
+            "object": true,
+            "properties": [
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 0,
+                    "name": "columnCount",
+                    "read": "columnCount",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "int",
+                    "user": false,
+                    "write": "setColumnCount"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 1,
+                    "name": "topLevelItemCount",
+                    "read": "topLevelItemCount",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "int",
+                    "user": false
+                }
+            ],
+            "qualifiedClassName": "QTreeWidget",
+            "signals": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "item",
+                            "type": "QTreeWidgetItem*"
+                        },
+                        {
+                            "name": "column",
+                            "type": "int"
+                        }
+                    ],
+                    "name": "itemPressed",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "item",
+                            "type": "QTreeWidgetItem*"
+                        },
+                        {
+                            "name": "column",
+                            "type": "int"
+                        }
+                    ],
+                    "name": "itemClicked",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "item",
+                            "type": "QTreeWidgetItem*"
+                        },
+                        {
+                            "name": "column",
+                            "type": "int"
+                        }
+                    ],
+                    "name": "itemDoubleClicked",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "item",
+                            "type": "QTreeWidgetItem*"
+                        },
+                        {
+                            "name": "column",
+                            "type": "int"
+                        }
+                    ],
+                    "name": "itemActivated",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "item",
+                            "type": "QTreeWidgetItem*"
+                        },
+                        {
+                            "name": "column",
+                            "type": "int"
+                        }
+                    ],
+                    "name": "itemEntered",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "item",
+                            "type": "QTreeWidgetItem*"
+                        },
+                        {
+                            "name": "column",
+                            "type": "int"
+                        }
+                    ],
+                    "name": "itemChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "item",
+                            "type": "QTreeWidgetItem*"
+                        }
+                    ],
+                    "name": "itemExpanded",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "item",
+                            "type": "QTreeWidgetItem*"
+                        }
+                    ],
+                    "name": "itemCollapsed",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "current",
+                            "type": "QTreeWidgetItem*"
+                        },
+                        {
+                            "name": "previous",
+                            "type": "QTreeWidgetItem*"
+                        }
+                    ],
+                    "name": "currentItemChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "name": "itemSelectionChanged",
+                    "returnType": "void"
+                }
+            ],
+            "slots": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "item",
+                            "type": "const QTreeWidgetItem*"
+                        },
+                        {
+                            "name": "hint",
+                            "type": "QAbstractItemView::ScrollHint"
+                        }
+                    ],
+                    "name": "scrollToItem",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "item",
+                            "type": "const QTreeWidgetItem*"
+                        }
+                    ],
+                    "isCloned": true,
+                    "name": "scrollToItem",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "item",
+                            "type": "const QTreeWidgetItem*"
+                        }
+                    ],
+                    "name": "expandItem",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "item",
+                            "type": "const QTreeWidgetItem*"
+                        }
+                    ],
+                    "name": "collapseItem",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "name": "clear",
+                    "returnType": "void"
+                },
+                {
+                    "access": "private",
+                    "arguments": [
+                        {
+                            "name": "index",
+                            "type": "QModelIndex"
+                        }
+                    ],
+                    "name": "_q_emitItemPressed",
+                    "returnType": "void"
+                },
+                {
+                    "access": "private",
+                    "arguments": [
+                        {
+                            "name": "index",
+                            "type": "QModelIndex"
+                        }
+                    ],
+                    "name": "_q_emitItemClicked",
+                    "returnType": "void"
+                },
+                {
+                    "access": "private",
+                    "arguments": [
+                        {
+                            "name": "index",
+                            "type": "QModelIndex"
+                        }
+                    ],
+                    "name": "_q_emitItemDoubleClicked",
+                    "returnType": "void"
+                },
+                {
+                    "access": "private",
+                    "arguments": [
+                        {
+                            "name": "index",
+                            "type": "QModelIndex"
+                        }
+                    ],
+                    "name": "_q_emitItemActivated",
+                    "returnType": "void"
+                },
+                {
+                    "access": "private",
+                    "arguments": [
+                        {
+                            "name": "index",
+                            "type": "QModelIndex"
+                        }
+                    ],
+                    "name": "_q_emitItemEntered",
+                    "returnType": "void"
+                },
+                {
+                    "access": "private",
+                    "arguments": [
+                        {
+                            "name": "index",
+                            "type": "QModelIndex"
+                        }
+                    ],
+                    "name": "_q_emitItemChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "private",
+                    "arguments": [
+                        {
+                            "name": "index",
+                            "type": "QModelIndex"
+                        }
+                    ],
+                    "name": "_q_emitItemExpanded",
+                    "returnType": "void"
+                },
+                {
+                    "access": "private",
+                    "arguments": [
+                        {
+                            "name": "index",
+                            "type": "QModelIndex"
+                        }
+                    ],
+                    "name": "_q_emitItemCollapsed",
+                    "returnType": "void"
+                },
+                {
+                    "access": "private",
+                    "arguments": [
+                        {
+                            "name": "previous",
+                            "type": "QModelIndex"
+                        },
+                        {
+                            "name": "current",
+                            "type": "QModelIndex"
+                        }
+                    ],
+                    "name": "_q_emitCurrentItemChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "private",
+                    "name": "_q_sort",
+                    "returnType": "void"
+                },
+                {
+                    "access": "private",
+                    "arguments": [
+                        {
+                            "name": "topLeft",
+                            "type": "QModelIndex"
+                        },
+                        {
+                            "name": "bottomRight",
+                            "type": "QModelIndex"
+                        }
+                    ],
+                    "name": "_q_dataChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "private",
+                    "arguments": [
+                        {
+                            "name": "selected",
+                            "type": "QItemSelection"
+                        },
+                        {
+                            "name": "deselected",
+                            "type": "QItemSelection"
+                        }
+                    ],
+                    "name": "_q_selectionChanged",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QTreeView"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qtreewidget.h",
+    "outputRevision": 68
+}

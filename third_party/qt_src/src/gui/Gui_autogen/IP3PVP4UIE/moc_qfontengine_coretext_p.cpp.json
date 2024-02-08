@@ -1,0 +1,29 @@
+{
+    "classes": [
+        {
+            "className": "QCoreTextFontEngine",
+            "enums": [
+                {
+                    "isClass": false,
+                    "isFlag": false,
+                    "name": "FontSmoothing",
+                    "values": [
+                        "Disabled",
+                        "Subpixel",
+                        "Grayscale"
+                    ]
+                }
+            ],
+            "gadget": true,
+            "qualifiedClassName": "QCoreTextFontEngine",
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QFontEngine"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qfontengine_coretext_p.h",
+    "outputRevision": 68
+}

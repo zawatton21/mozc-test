@@ -1,0 +1,17 @@
+{
+    "classes": [
+        {
+            "className": "QEventDispatcherUNIX",
+            "object": true,
+            "qualifiedClassName": "QEventDispatcherUNIX",
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QAbstractEventDispatcher"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qeventdispatcher_unix_p.h",
+    "outputRevision": 68
+}

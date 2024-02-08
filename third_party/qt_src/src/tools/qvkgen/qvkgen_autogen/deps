@@ -1,0 +1,4 @@
+qvkgen_autogen/timestamp: \
+	/Users/madblack-21/Github/mozc/src/third_party/qt_src/src/tools/qvkgen/CMakeLists.txt \
+	/Users/madblack-21/Github/mozc/src/third_party/qt_src/src/tools/qvkgen/qvkgen.cpp \
+	/opt/homebrew/Cellar/cmake/3.28.1/bin/cmake

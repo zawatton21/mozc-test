@@ -1,0 +1,17 @@
+{
+    "classes": [
+        {
+            "className": "QCocoaPrinterSupportPlugin",
+            "object": true,
+            "qualifiedClassName": "QCocoaPrinterSupportPlugin",
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QPlatformPrinterSupportPlugin"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qcocoaprintersupport.mm",
+    "outputRevision": 68
+}

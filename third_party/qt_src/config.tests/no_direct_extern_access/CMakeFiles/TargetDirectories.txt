@@ -1,0 +1,4 @@
+/Users/madblack-21/Github/mozc/src/third_party/qt_src/config.tests/no_direct_extern_access/CMakeFiles/no_extern_access_lib.dir
+/Users/madblack-21/Github/mozc/src/third_party/qt_src/config.tests/no_direct_extern_access/CMakeFiles/no_extern_access_main.dir
+/Users/madblack-21/Github/mozc/src/third_party/qt_src/config.tests/no_direct_extern_access/CMakeFiles/edit_cache.dir
+/Users/madblack-21/Github/mozc/src/third_party/qt_src/config.tests/no_direct_extern_access/CMakeFiles/rebuild_cache.dir

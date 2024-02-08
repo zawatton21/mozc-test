@@ -1,0 +1,29 @@
+{
+    "classes": [
+        {
+            "className": "QPlatformTextureList",
+            "object": true,
+            "qualifiedClassName": "QPlatformTextureList",
+            "signals": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "type": "bool"
+                        }
+                    ],
+                    "name": "locked",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qplatformbackingstore.h",
+    "outputRevision": 68
+}

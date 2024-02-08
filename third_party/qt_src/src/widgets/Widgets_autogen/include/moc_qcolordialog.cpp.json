@@ -1,0 +1,170 @@
+{
+    "classes": [
+        {
+            "className": "QColorDialog",
+            "enums": [
+                {
+                    "isClass": false,
+                    "isFlag": false,
+                    "name": "ColorDialogOption",
+                    "values": [
+                        "ShowAlphaChannel",
+                        "NoButtons",
+                        "DontUseNativeDialog"
+                    ]
+                }
+            ],
+            "object": true,
+            "properties": [
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 0,
+                    "name": "currentColor",
+                    "notify": "currentColorChanged",
+                    "read": "currentColor",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QColor",
+                    "user": false,
+                    "write": "setCurrentColor"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 1,
+                    "name": "options",
+                    "read": "options",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "ColorDialogOptions",
+                    "user": false,
+                    "write": "setOptions"
+                }
+            ],
+            "qualifiedClassName": "QColorDialog",
+            "signals": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "color",
+                            "type": "QColor"
+                        }
+                    ],
+                    "name": "currentColorChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "color",
+                            "type": "QColor"
+                        }
+                    ],
+                    "name": "colorSelected",
+                    "returnType": "void"
+                }
+            ],
+            "slots": [
+                {
+                    "access": "private",
+                    "name": "_q_addCustom",
+                    "returnType": "void"
+                },
+                {
+                    "access": "private",
+                    "arguments": [
+                        {
+                            "name": "h",
+                            "type": "int"
+                        },
+                        {
+                            "name": "s",
+                            "type": "int"
+                        },
+                        {
+                            "name": "v",
+                            "type": "int"
+                        }
+                    ],
+                    "name": "_q_newHsv",
+                    "returnType": "void"
+                },
+                {
+                    "access": "private",
+                    "arguments": [
+                        {
+                            "name": "rgb",
+                            "type": "QRgb"
+                        }
+                    ],
+                    "name": "_q_newColorTypedIn",
+                    "returnType": "void"
+                },
+                {
+                    "access": "private",
+                    "arguments": [
+                        {
+                            "type": "int"
+                        },
+                        {
+                            "type": "int"
+                        }
+                    ],
+                    "name": "_q_nextCustom",
+                    "returnType": "void"
+                },
+                {
+                    "access": "private",
+                    "arguments": [
+                        {
+                            "type": "int"
+                        },
+                        {
+                            "type": "int"
+                        }
+                    ],
+                    "name": "_q_newCustom",
+                    "returnType": "void"
+                },
+                {
+                    "access": "private",
+                    "arguments": [
+                        {
+                            "type": "int"
+                        },
+                        {
+                            "type": "int"
+                        }
+                    ],
+                    "name": "_q_newStandard",
+                    "returnType": "void"
+                },
+                {
+                    "access": "private",
+                    "name": "_q_pickScreenColor",
+                    "returnType": "void"
+                },
+                {
+                    "access": "private",
+                    "name": "_q_updateColorPicking",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QDialog"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qcolordialog.h",
+    "outputRevision": 68
+}

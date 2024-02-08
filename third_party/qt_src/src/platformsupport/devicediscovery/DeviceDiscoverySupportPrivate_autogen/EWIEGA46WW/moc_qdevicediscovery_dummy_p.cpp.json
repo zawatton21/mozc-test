@@ -1,0 +1,17 @@
+{
+    "classes": [
+        {
+            "className": "QDeviceDiscoveryDummy",
+            "object": true,
+            "qualifiedClassName": "QDeviceDiscoveryDummy",
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QDeviceDiscovery"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qdevicediscovery_dummy_p.h",
+    "outputRevision": 68
+}

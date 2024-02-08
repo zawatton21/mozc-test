@@ -1,0 +1,241 @@
+[
+    {
+        "classes": [
+            {
+                "className": "QPlatformPrinterSupportPlugin",
+                "object": true,
+                "qualifiedClassName": "QPlatformPrinterSupportPlugin",
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "QObject"
+                    }
+                ]
+            }
+        ],
+        "inputFile": "qplatformprintplugin.h",
+        "outputRevision": 68
+    },
+    {
+        "classes": [
+            {
+                "className": "QPrintPreviewWidget",
+                "object": true,
+                "qualifiedClassName": "QPrintPreviewWidget",
+                "signals": [
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "printer",
+                                "type": "QPrinter*"
+                            }
+                        ],
+                        "name": "paintRequested",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "name": "previewChanged",
+                        "returnType": "void"
+                    }
+                ],
+                "slots": [
+                    {
+                        "access": "public",
+                        "name": "print",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "zoom",
+                                "type": "qreal"
+                            }
+                        ],
+                        "name": "zoomIn",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "isCloned": true,
+                        "name": "zoomIn",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "zoom",
+                                "type": "qreal"
+                            }
+                        ],
+                        "name": "zoomOut",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "isCloned": true,
+                        "name": "zoomOut",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "zoomFactor",
+                                "type": "qreal"
+                            }
+                        ],
+                        "name": "setZoomFactor",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "orientation",
+                                "type": "QPageLayout::Orientation"
+                            }
+                        ],
+                        "name": "setOrientation",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "viewMode",
+                                "type": "ViewMode"
+                            }
+                        ],
+                        "name": "setViewMode",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "zoomMode",
+                                "type": "ZoomMode"
+                            }
+                        ],
+                        "name": "setZoomMode",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "pageNumber",
+                                "type": "int"
+                            }
+                        ],
+                        "name": "setCurrentPage",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "name": "fitToWidth",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "name": "fitInView",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "name": "setLandscapeOrientation",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "name": "setPortraitOrientation",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "name": "setSinglePageViewMode",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "name": "setFacingPagesViewMode",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "name": "setAllPagesViewMode",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "name": "updatePreview",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "private",
+                        "name": "_q_fit",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "private",
+                        "name": "_q_updateCurrentPage",
+                        "returnType": "void"
+                    }
+                ],
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "QWidget"
+                    }
+                ]
+            }
+        ],
+        "inputFile": "qprintpreviewwidget.h",
+        "outputRevision": 68
+    },
+    {
+        "classes": [
+            {
+                "className": "QCocoaPrinterSupportPlugin",
+                "object": true,
+                "qualifiedClassName": "QCocoaPrinterSupportPlugin",
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "QPlatformPrinterSupportPlugin"
+                    }
+                ]
+            }
+        ],
+        "inputFile": "qcocoaprintersupport.mm",
+        "outputRevision": 68
+    },
+    {
+        "classes": [
+            {
+                "className": "GraphicsView",
+                "object": true,
+                "qualifiedClassName": "QtPrivate::GraphicsView",
+                "signals": [
+                    {
+                        "access": "public",
+                        "name": "resized",
+                        "returnType": "void"
+                    }
+                ],
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "QGraphicsView"
+                    }
+                ]
+            }
+        ],
+        "inputFile": "qprintpreviewwidget.cpp",
+        "outputRevision": 68
+    }
+]

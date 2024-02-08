@@ -1,0 +1,115 @@
+{
+    "classes": [
+        {
+            "className": "QInputDialog",
+            "object": true,
+            "qualifiedClassName": "QInputDialog",
+            "signals": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "text",
+                            "type": "QString"
+                        }
+                    ],
+                    "name": "textValueChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "text",
+                            "type": "QString"
+                        }
+                    ],
+                    "name": "textValueSelected",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "value",
+                            "type": "int"
+                        }
+                    ],
+                    "name": "intValueChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "value",
+                            "type": "int"
+                        }
+                    ],
+                    "name": "intValueSelected",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "value",
+                            "type": "double"
+                        }
+                    ],
+                    "name": "doubleValueChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "value",
+                            "type": "double"
+                        }
+                    ],
+                    "name": "doubleValueSelected",
+                    "returnType": "void"
+                }
+            ],
+            "slots": [
+                {
+                    "access": "private",
+                    "arguments": [
+                        {
+                            "type": "QString"
+                        }
+                    ],
+                    "name": "_q_textChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "private",
+                    "name": "_q_plainTextEditTextChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "private",
+                    "arguments": [
+                        {
+                            "type": "QModelIndex"
+                        },
+                        {
+                            "type": "QModelIndex"
+                        }
+                    ],
+                    "name": "_q_currentRowChanged",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QDialog"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qinputdialog.h",
+    "outputRevision": 68
+}

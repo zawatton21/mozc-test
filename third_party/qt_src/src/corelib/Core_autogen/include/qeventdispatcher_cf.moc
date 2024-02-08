@@ -1,0 +1,182 @@
+/****************************************************************************
+** Meta object code from reading C++ file 'qeventdispatcher_cf.mm'
+**
+** Created by: The Qt Meta Object Compiler version 68 (Qt 6.6.1)
+**
+** WARNING! All changes made in this file will be lost!
+*****************************************************************************/
+
+#include <QtCore/qmetatype.h>
+
+#if __has_include(<QtCore/qtmochelpers.h>)
+#include <QtCore/qtmochelpers.h>
+#else
+QT_BEGIN_MOC_NAMESPACE
+#endif
+
+
+#include <memory>
+
+#if !defined(Q_MOC_OUTPUT_REVISION)
+#error "The header file 'qeventdispatcher_cf.mm' doesn't include <QObject>."
+#elif Q_MOC_OUTPUT_REVISION != 68
+#error "This file was generated using the moc from 6.6.1. It"
+#error "cannot be used with the include files from this version of Qt."
+#error "(The moc has changed too much.)"
+#endif
+
+#ifndef Q_CONSTINIT
+#define Q_CONSTINIT
+#endif
+
+QT_WARNING_PUSH
+QT_WARNING_DISABLE_DEPRECATED
+QT_WARNING_DISABLE_GCC("-Wuseless-cast")
+namespace {
+
+#ifdef QT_MOC_HAS_STRINGDATA
+struct qt_meta_stringdata_CLASSRunLoopDebuggerENDCLASS_t {};
+static constexpr auto qt_meta_stringdata_CLASSRunLoopDebuggerENDCLASS = QtMocHelpers::stringData(
+    "RunLoopDebugger",
+    "Activity",
+    "kCFRunLoopEntry",
+    "kCFRunLoopBeforeTimers",
+    "kCFRunLoopBeforeSources",
+    "kCFRunLoopBeforeWaiting",
+    "kCFRunLoopAfterWaiting",
+    "kCFRunLoopExit",
+    "Result",
+    "kCFRunLoopRunFinished",
+    "kCFRunLoopRunStopped",
+    "kCFRunLoopRunTimedOut",
+    "kCFRunLoopRunHandledSource"
+);
+#else  // !QT_MOC_HAS_STRING_DATA
+struct qt_meta_stringdata_CLASSRunLoopDebuggerENDCLASS_t {
+    uint offsetsAndSizes[26];
+    char stringdata0[16];
+    char stringdata1[9];
+    char stringdata2[16];
+    char stringdata3[23];
+    char stringdata4[24];
+    char stringdata5[24];
+    char stringdata6[23];
+    char stringdata7[15];
+    char stringdata8[7];
+    char stringdata9[22];
+    char stringdata10[21];
+    char stringdata11[22];
+    char stringdata12[27];
+};
+#define QT_MOC_LITERAL(ofs, len) \
+    uint(sizeof(qt_meta_stringdata_CLASSRunLoopDebuggerENDCLASS_t::offsetsAndSizes) + ofs), len 
+Q_CONSTINIT static const qt_meta_stringdata_CLASSRunLoopDebuggerENDCLASS_t qt_meta_stringdata_CLASSRunLoopDebuggerENDCLASS = {
+    {
+        QT_MOC_LITERAL(0, 15),  // "RunLoopDebugger"
+        QT_MOC_LITERAL(16, 8),  // "Activity"
+        QT_MOC_LITERAL(25, 15),  // "kCFRunLoopEntry"
+        QT_MOC_LITERAL(41, 22),  // "kCFRunLoopBeforeTimers"
+        QT_MOC_LITERAL(64, 23),  // "kCFRunLoopBeforeSources"
+        QT_MOC_LITERAL(88, 23),  // "kCFRunLoopBeforeWaiting"
+        QT_MOC_LITERAL(112, 22),  // "kCFRunLoopAfterWaiting"
+        QT_MOC_LITERAL(135, 14),  // "kCFRunLoopExit"
+        QT_MOC_LITERAL(150, 6),  // "Result"
+        QT_MOC_LITERAL(157, 21),  // "kCFRunLoopRunFinished"
+        QT_MOC_LITERAL(179, 20),  // "kCFRunLoopRunStopped"
+        QT_MOC_LITERAL(200, 21),  // "kCFRunLoopRunTimedOut"
+        QT_MOC_LITERAL(222, 26)   // "kCFRunLoopRunHandledSource"
+    },
+    "RunLoopDebugger",
+    "Activity",
+    "kCFRunLoopEntry",
+    "kCFRunLoopBeforeTimers",
+    "kCFRunLoopBeforeSources",
+    "kCFRunLoopBeforeWaiting",
+    "kCFRunLoopAfterWaiting",
+    "kCFRunLoopExit",
+    "Result",
+    "kCFRunLoopRunFinished",
+    "kCFRunLoopRunStopped",
+    "kCFRunLoopRunTimedOut",
+    "kCFRunLoopRunHandledSource"
+};
+#undef QT_MOC_LITERAL
+#endif // !QT_MOC_HAS_STRING_DATA
+} // unnamed namespace
+
+Q_CONSTINIT static const uint qt_meta_data_CLASSRunLoopDebuggerENDCLASS[] = {
+
+ // content:
+      12,       // revision
+       0,       // classname
+       0,    0, // classinfo
+       0,    0, // methods
+       0,    0, // properties
+       2,   14, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+       0,       // signalCount
+
+ // enums: name, alias, flags, count, data
+       1,    1, 0x0,    6,   24,
+       8,    8, 0x0,    4,   36,
+
+ // enum data: key, value
+       2, uint(RunLoopDebugger::kCFRunLoopEntry),
+       3, uint(RunLoopDebugger::kCFRunLoopBeforeTimers),
+       4, uint(RunLoopDebugger::kCFRunLoopBeforeSources),
+       5, uint(RunLoopDebugger::kCFRunLoopBeforeWaiting),
+       6, uint(RunLoopDebugger::kCFRunLoopAfterWaiting),
+       7, uint(RunLoopDebugger::kCFRunLoopExit),
+       9, uint(RunLoopDebugger::kCFRunLoopRunFinished),
+      10, uint(RunLoopDebugger::kCFRunLoopRunStopped),
+      11, uint(RunLoopDebugger::kCFRunLoopRunTimedOut),
+      12, uint(RunLoopDebugger::kCFRunLoopRunHandledSource),
+
+       0        // eod
+};
+
+Q_CONSTINIT const QMetaObject RunLoopDebugger::staticMetaObject = { {
+    QMetaObject::SuperData::link<QObject::staticMetaObject>(),
+    qt_meta_stringdata_CLASSRunLoopDebuggerENDCLASS.offsetsAndSizes,
+    qt_meta_data_CLASSRunLoopDebuggerENDCLASS,
+    qt_static_metacall,
+    nullptr,
+    qt_incomplete_metaTypeArray<qt_meta_stringdata_CLASSRunLoopDebuggerENDCLASS_t,
+        // enum 'Activity'
+        QtPrivate::TypeAndForceComplete<RunLoopDebugger::Activity, std::true_type>,
+        // enum 'Result'
+        QtPrivate::TypeAndForceComplete<RunLoopDebugger::Result, std::true_type>,
+        // Q_OBJECT / Q_GADGET
+        QtPrivate::TypeAndForceComplete<RunLoopDebugger, std::true_type>
+    >,
+    nullptr
+} };
+
+void RunLoopDebugger::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    (void)_o;
+    (void)_id;
+    (void)_c;
+    (void)_a;
+}
+
+const QMetaObject *RunLoopDebugger::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->dynamicMetaObject() : &staticMetaObject;
+}
+
+void *RunLoopDebugger::qt_metacast(const char *_clname)
+{
+    if (!_clname) return nullptr;
+    if (!strcmp(_clname, qt_meta_stringdata_CLASSRunLoopDebuggerENDCLASS.stringdata0))
+        return static_cast<void*>(this);
+    return QObject::qt_metacast(_clname);
+}
+
+int RunLoopDebugger::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = QObject::qt_metacall(_c, _id, _a);
+    return _id;
+}
+QT_WARNING_POP

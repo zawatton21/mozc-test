@@ -1,0 +1,91 @@
+{
+    "classes": [
+        {
+            "className": "QFseventsFileSystemWatcherEngine",
+            "object": true,
+            "qualifiedClassName": "QFseventsFileSystemWatcherEngine",
+            "signals": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "path",
+                            "type": "QString"
+                        },
+                        {
+                            "name": "removed",
+                            "type": "bool"
+                        }
+                    ],
+                    "name": "emitFileChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "path",
+                            "type": "QString"
+                        },
+                        {
+                            "name": "removed",
+                            "type": "bool"
+                        }
+                    ],
+                    "name": "emitDirectoryChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "name": "scheduleStreamRestart",
+                    "returnType": "void"
+                }
+            ],
+            "slots": [
+                {
+                    "access": "private",
+                    "arguments": [
+                        {
+                            "name": "path",
+                            "type": "QString"
+                        },
+                        {
+                            "name": "removed",
+                            "type": "bool"
+                        }
+                    ],
+                    "name": "doEmitFileChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "private",
+                    "arguments": [
+                        {
+                            "name": "path",
+                            "type": "QString"
+                        },
+                        {
+                            "name": "removed",
+                            "type": "bool"
+                        }
+                    ],
+                    "name": "doEmitDirectoryChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "private",
+                    "name": "restartStream",
+                    "returnType": "bool"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QFileSystemWatcherEngine"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qfilesystemwatcher_fsevents_p.h",
+    "outputRevision": 68
+}

@@ -1,0 +1,492 @@
+{
+    "classes": [
+        {
+            "className": "QFileDialog",
+            "enums": [
+                {
+                    "isClass": false,
+                    "isFlag": false,
+                    "name": "ViewMode",
+                    "values": [
+                        "Detail",
+                        "List"
+                    ]
+                },
+                {
+                    "isClass": false,
+                    "isFlag": false,
+                    "name": "FileMode",
+                    "values": [
+                        "AnyFile",
+                        "ExistingFile",
+                        "Directory",
+                        "ExistingFiles"
+                    ]
+                },
+                {
+                    "isClass": false,
+                    "isFlag": false,
+                    "name": "AcceptMode",
+                    "values": [
+                        "AcceptOpen",
+                        "AcceptSave"
+                    ]
+                },
+                {
+                    "isClass": false,
+                    "isFlag": false,
+                    "name": "Option",
+                    "values": [
+                        "ShowDirsOnly",
+                        "DontResolveSymlinks",
+                        "DontConfirmOverwrite",
+                        "DontUseNativeDialog",
+                        "ReadOnly",
+                        "HideNameFilterDetails",
+                        "DontUseCustomDirectoryIcons"
+                    ]
+                },
+                {
+                    "alias": "Option",
+                    "isClass": false,
+                    "isFlag": true,
+                    "name": "Options",
+                    "values": [
+                        "ShowDirsOnly",
+                        "DontResolveSymlinks",
+                        "DontConfirmOverwrite",
+                        "DontUseNativeDialog",
+                        "ReadOnly",
+                        "HideNameFilterDetails",
+                        "DontUseCustomDirectoryIcons"
+                    ]
+                }
+            ],
+            "object": true,
+            "properties": [
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 0,
+                    "name": "viewMode",
+                    "read": "viewMode",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "ViewMode",
+                    "user": false,
+                    "write": "setViewMode"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 1,
+                    "name": "fileMode",
+                    "read": "fileMode",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "FileMode",
+                    "user": false,
+                    "write": "setFileMode"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 2,
+                    "name": "acceptMode",
+                    "read": "acceptMode",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "AcceptMode",
+                    "user": false,
+                    "write": "setAcceptMode"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 3,
+                    "name": "defaultSuffix",
+                    "read": "defaultSuffix",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QString",
+                    "user": false,
+                    "write": "setDefaultSuffix"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 4,
+                    "name": "options",
+                    "read": "options",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "Options",
+                    "user": false,
+                    "write": "setOptions"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 5,
+                    "name": "supportedSchemes",
+                    "read": "supportedSchemes",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QStringList",
+                    "user": false,
+                    "write": "setSupportedSchemes"
+                }
+            ],
+            "qualifiedClassName": "QFileDialog",
+            "signals": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "file",
+                            "type": "QString"
+                        }
+                    ],
+                    "name": "fileSelected",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "files",
+                            "type": "QStringList"
+                        }
+                    ],
+                    "name": "filesSelected",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "path",
+                            "type": "QString"
+                        }
+                    ],
+                    "name": "currentChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "directory",
+                            "type": "QString"
+                        }
+                    ],
+                    "name": "directoryEntered",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "url",
+                            "type": "QUrl"
+                        }
+                    ],
+                    "name": "urlSelected",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "urls",
+                            "type": "QList<QUrl>"
+                        }
+                    ],
+                    "name": "urlsSelected",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "url",
+                            "type": "QUrl"
+                        }
+                    ],
+                    "name": "currentUrlChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "directory",
+                            "type": "QUrl"
+                        }
+                    ],
+                    "name": "directoryUrlEntered",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "filter",
+                            "type": "QString"
+                        }
+                    ],
+                    "name": "filterSelected",
+                    "returnType": "void"
+                }
+            ],
+            "slots": [
+                {
+                    "access": "private",
+                    "arguments": [
+                        {
+                            "type": "QString"
+                        }
+                    ],
+                    "name": "_q_pathChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "private",
+                    "name": "_q_navigateBackward",
+                    "returnType": "void"
+                },
+                {
+                    "access": "private",
+                    "name": "_q_navigateForward",
+                    "returnType": "void"
+                },
+                {
+                    "access": "private",
+                    "name": "_q_navigateToParent",
+                    "returnType": "void"
+                },
+                {
+                    "access": "private",
+                    "name": "_q_createDirectory",
+                    "returnType": "void"
+                },
+                {
+                    "access": "private",
+                    "name": "_q_showListView",
+                    "returnType": "void"
+                },
+                {
+                    "access": "private",
+                    "name": "_q_showDetailsView",
+                    "returnType": "void"
+                },
+                {
+                    "access": "private",
+                    "arguments": [
+                        {
+                            "type": "QPoint"
+                        }
+                    ],
+                    "name": "_q_showContextMenu",
+                    "returnType": "void"
+                },
+                {
+                    "access": "private",
+                    "name": "_q_renameCurrent",
+                    "returnType": "void"
+                },
+                {
+                    "access": "private",
+                    "name": "_q_deleteCurrent",
+                    "returnType": "void"
+                },
+                {
+                    "access": "private",
+                    "name": "_q_showHidden",
+                    "returnType": "void"
+                },
+                {
+                    "access": "private",
+                    "name": "_q_updateOkButton",
+                    "returnType": "void"
+                },
+                {
+                    "access": "private",
+                    "arguments": [
+                        {
+                            "name": "index",
+                            "type": "QModelIndex"
+                        }
+                    ],
+                    "name": "_q_currentChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "private",
+                    "arguments": [
+                        {
+                            "name": "index",
+                            "type": "QModelIndex"
+                        }
+                    ],
+                    "name": "_q_enterDirectory",
+                    "returnType": "void"
+                },
+                {
+                    "access": "private",
+                    "arguments": [
+                        {
+                            "type": "QUrl"
+                        }
+                    ],
+                    "name": "_q_emitUrlSelected",
+                    "returnType": "void"
+                },
+                {
+                    "access": "private",
+                    "arguments": [
+                        {
+                            "type": "QList<QUrl>"
+                        }
+                    ],
+                    "name": "_q_emitUrlsSelected",
+                    "returnType": "void"
+                },
+                {
+                    "access": "private",
+                    "arguments": [
+                        {
+                            "type": "QUrl"
+                        }
+                    ],
+                    "name": "_q_nativeCurrentChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "private",
+                    "arguments": [
+                        {
+                            "type": "QUrl"
+                        }
+                    ],
+                    "name": "_q_nativeEnterDirectory",
+                    "returnType": "void"
+                },
+                {
+                    "access": "private",
+                    "arguments": [
+                        {
+                            "name": "path",
+                            "type": "QString"
+                        }
+                    ],
+                    "name": "_q_goToDirectory",
+                    "returnType": "void"
+                },
+                {
+                    "access": "private",
+                    "arguments": [
+                        {
+                            "name": "index",
+                            "type": "int"
+                        }
+                    ],
+                    "name": "_q_useNameFilter",
+                    "returnType": "void"
+                },
+                {
+                    "access": "private",
+                    "name": "_q_selectionChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "private",
+                    "arguments": [
+                        {
+                            "name": "url",
+                            "type": "QUrl"
+                        }
+                    ],
+                    "name": "_q_goToUrl",
+                    "returnType": "void"
+                },
+                {
+                    "access": "private",
+                    "name": "_q_goHome",
+                    "returnType": "void"
+                },
+                {
+                    "access": "private",
+                    "arguments": [
+                        {
+                            "type": "QAction*"
+                        }
+                    ],
+                    "name": "_q_showHeader",
+                    "returnType": "void"
+                },
+                {
+                    "access": "private",
+                    "arguments": [
+                        {
+                            "name": "text",
+                            "type": "QString"
+                        }
+                    ],
+                    "name": "_q_autoCompleteFileName",
+                    "returnType": "void"
+                },
+                {
+                    "access": "private",
+                    "arguments": [
+                        {
+                            "name": "parent",
+                            "type": "QModelIndex"
+                        }
+                    ],
+                    "name": "_q_rowsInserted",
+                    "returnType": "void"
+                },
+                {
+                    "access": "private",
+                    "arguments": [
+                        {
+                            "name": "path",
+                            "type": "QString"
+                        },
+                        {
+                            "name": "oldName",
+                            "type": "QString"
+                        },
+                        {
+                            "name": "newName",
+                            "type": "QString"
+                        }
+                    ],
+                    "name": "_q_fileRenamed",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QDialog"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qfiledialog.h",
+    "outputRevision": 68
+}

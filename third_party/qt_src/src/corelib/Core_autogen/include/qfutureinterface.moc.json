@@ -1,0 +1,28 @@
+{
+    "classes": [
+        {
+            "className": "QBasicFutureWatcher",
+            "object": true,
+            "qualifiedClassName": "QBasicFutureWatcher",
+            "signals": [
+                {
+                    "access": "public",
+                    "name": "finished",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                },
+                {
+                    "access": "public",
+                    "name": "QFutureCallOutInterface"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qfutureinterface.cpp",
+    "outputRevision": 68
+}

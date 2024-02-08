@@ -1,0 +1,34 @@
+{
+    "classes": [
+        {
+            "className": "QDarwinPermissionPlugin",
+            "object": true,
+            "qualifiedClassName": "QDarwinPermissionPlugin",
+            "slots": [
+                {
+                    "access": "private",
+                    "arguments": [
+                        {
+                            "name": "status",
+                            "type": "Qt::PermissionStatus"
+                        },
+                        {
+                            "name": "callback",
+                            "type": "PermissionCallback"
+                        }
+                    ],
+                    "name": "permissionUpdated",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QPermissionPlugin"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qdarwinpermissionplugin_p.h",
+    "outputRevision": 68
+}

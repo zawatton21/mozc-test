@@ -1,0 +1,41 @@
+{
+    "classes": [
+        {
+            "className": "QFbVtHandler",
+            "object": true,
+            "qualifiedClassName": "QFbVtHandler",
+            "signals": [
+                {
+                    "access": "public",
+                    "name": "interrupted",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "name": "aboutToSuspend",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "name": "resumed",
+                    "returnType": "void"
+                }
+            ],
+            "slots": [
+                {
+                    "access": "private",
+                    "name": "handleSignal",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qfbvthandler_p.h",
+    "outputRevision": 68
+}

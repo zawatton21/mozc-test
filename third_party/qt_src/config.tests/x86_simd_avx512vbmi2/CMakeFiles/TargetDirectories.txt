@@ -1,0 +1,3 @@
+/Users/madblack-21/Github/mozc/src/third_party/qt_src/config.tests/x86_simd_avx512vbmi2/CMakeFiles/SimdTestavx512vbmi2.dir
+/Users/madblack-21/Github/mozc/src/third_party/qt_src/config.tests/x86_simd_avx512vbmi2/CMakeFiles/edit_cache.dir
+/Users/madblack-21/Github/mozc/src/third_party/qt_src/config.tests/x86_simd_avx512vbmi2/CMakeFiles/rebuild_cache.dir

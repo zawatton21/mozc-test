@@ -1,0 +1,6 @@
+rcc_autogen/timestamp: \
+	/Users/madblack-21/Github/mozc/src/third_party/qt_src/src/tools/rcc/CMakeLists.txt \
+	/Users/madblack-21/Github/mozc/src/third_party/qt_src/src/tools/rcc/main.cpp \
+	/Users/madblack-21/Github/mozc/src/third_party/qt_src/src/tools/rcc/rcc.cpp \
+	/Users/madblack-21/Github/mozc/src/third_party/qt_src/src/tools/rcc/rcc.h \
+	/opt/homebrew/Cellar/cmake/3.28.1/bin/cmake

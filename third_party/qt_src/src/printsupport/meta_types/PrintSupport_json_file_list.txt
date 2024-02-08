@@ -1,0 +1,4 @@
+/Users/madblack-21/Github/mozc/src/third_party/qt_src/src/printsupport/PrintSupport_autogen/include/moc_qplatformprintplugin.cpp.json
+/Users/madblack-21/Github/mozc/src/third_party/qt_src/src/printsupport/PrintSupport_autogen/include/moc_qprintpreviewwidget.cpp.json
+/Users/madblack-21/Github/mozc/src/third_party/qt_src/src/printsupport/PrintSupport_autogen/include/qcocoaprintersupport.moc.json
+/Users/madblack-21/Github/mozc/src/third_party/qt_src/src/printsupport/PrintSupport_autogen/include/qprintpreviewwidget.moc.json

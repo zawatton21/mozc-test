@@ -1,0 +1,8 @@
+<RCC>
+  <qresource prefix="/qt-project.org/mac/cursors">
+    <file alias="images/sizeallcursor.png">/Users/madblack-21/Github/mozc/src/third_party/qt_src/src/plugins/platforms/cocoa/images/sizeallcursor.png</file>
+    <file alias="images/spincursor.png">/Users/madblack-21/Github/mozc/src/third_party/qt_src/src/plugins/platforms/cocoa/images/spincursor.png</file>
+    <file alias="images/waitcursor.png">/Users/madblack-21/Github/mozc/src/third_party/qt_src/src/plugins/platforms/cocoa/images/waitcursor.png</file>
+  </qresource>
+</RCC>
+

@@ -1,0 +1,73 @@
+{
+    "classes": [
+        {
+            "className": "QColumnView",
+            "object": true,
+            "properties": [
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 0,
+                    "name": "resizeGripsVisible",
+                    "read": "resizeGripsVisible",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "bool",
+                    "user": false,
+                    "write": "setResizeGripsVisible"
+                }
+            ],
+            "qualifiedClassName": "QColumnView",
+            "signals": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "index",
+                            "type": "QModelIndex"
+                        }
+                    ],
+                    "name": "updatePreviewWidget",
+                    "returnType": "void"
+                }
+            ],
+            "slots": [
+                {
+                    "access": "private",
+                    "arguments": [
+                        {
+                            "type": "int"
+                        }
+                    ],
+                    "name": "_q_gripMoved",
+                    "returnType": "void"
+                },
+                {
+                    "access": "private",
+                    "name": "_q_changeCurrentColumn",
+                    "returnType": "void"
+                },
+                {
+                    "access": "private",
+                    "arguments": [
+                        {
+                            "type": "QModelIndex"
+                        }
+                    ],
+                    "name": "_q_clicked",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QAbstractItemView"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qcolumnview.h",
+    "outputRevision": 68
+}

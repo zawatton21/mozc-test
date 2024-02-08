@@ -1,0 +1,1 @@
+FINAL_PRL_FILE_PATH = /Users/madblack-21/Github/mozc/src/third_party/qt_src/./plugins/permissions/libqdarwincamerapermission.prl

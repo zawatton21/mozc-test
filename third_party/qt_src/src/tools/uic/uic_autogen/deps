@@ -1,0 +1,34 @@
+uic_autogen/timestamp: \
+	/Users/madblack-21/Github/mozc/src/third_party/qt_src/src/tools/uic/CMakeLists.txt \
+	/Users/madblack-21/Github/mozc/src/third_party/qt_src/src/tools/uic/cpp/cppwritedeclaration.cpp \
+	/Users/madblack-21/Github/mozc/src/third_party/qt_src/src/tools/uic/cpp/cppwritedeclaration.h \
+	/Users/madblack-21/Github/mozc/src/third_party/qt_src/src/tools/uic/cpp/cppwriteincludes.cpp \
+	/Users/madblack-21/Github/mozc/src/third_party/qt_src/src/tools/uic/cpp/cppwriteincludes.h \
+	/Users/madblack-21/Github/mozc/src/third_party/qt_src/src/tools/uic/cpp/cppwriteinitialization.cpp \
+	/Users/madblack-21/Github/mozc/src/third_party/qt_src/src/tools/uic/cpp/cppwriteinitialization.h \
+	/Users/madblack-21/Github/mozc/src/third_party/qt_src/src/tools/uic/customwidgetsinfo.cpp \
+	/Users/madblack-21/Github/mozc/src/third_party/qt_src/src/tools/uic/customwidgetsinfo.h \
+	/Users/madblack-21/Github/mozc/src/third_party/qt_src/src/tools/uic/databaseinfo.cpp \
+	/Users/madblack-21/Github/mozc/src/third_party/qt_src/src/tools/uic/databaseinfo.h \
+	/Users/madblack-21/Github/mozc/src/third_party/qt_src/src/tools/uic/driver.cpp \
+	/Users/madblack-21/Github/mozc/src/third_party/qt_src/src/tools/uic/driver.h \
+	/Users/madblack-21/Github/mozc/src/third_party/qt_src/src/tools/uic/main.cpp \
+	/Users/madblack-21/Github/mozc/src/third_party/qt_src/src/tools/uic/option.h \
+	/Users/madblack-21/Github/mozc/src/third_party/qt_src/src/tools/uic/python/pythonwritedeclaration.cpp \
+	/Users/madblack-21/Github/mozc/src/third_party/qt_src/src/tools/uic/python/pythonwritedeclaration.h \
+	/Users/madblack-21/Github/mozc/src/third_party/qt_src/src/tools/uic/python/pythonwriteimports.cpp \
+	/Users/madblack-21/Github/mozc/src/third_party/qt_src/src/tools/uic/python/pythonwriteimports.h \
+	/Users/madblack-21/Github/mozc/src/third_party/qt_src/src/tools/uic/shared/language.cpp \
+	/Users/madblack-21/Github/mozc/src/third_party/qt_src/src/tools/uic/shared/language.h \
+	/Users/madblack-21/Github/mozc/src/third_party/qt_src/src/tools/uic/shared/writeincludesbase.cpp \
+	/Users/madblack-21/Github/mozc/src/third_party/qt_src/src/tools/uic/shared/writeincludesbase.h \
+	/Users/madblack-21/Github/mozc/src/third_party/qt_src/src/tools/uic/treewalker.cpp \
+	/Users/madblack-21/Github/mozc/src/third_party/qt_src/src/tools/uic/treewalker.h \
+	/Users/madblack-21/Github/mozc/src/third_party/qt_src/src/tools/uic/ui4.cpp \
+	/Users/madblack-21/Github/mozc/src/third_party/qt_src/src/tools/uic/ui4.h \
+	/Users/madblack-21/Github/mozc/src/third_party/qt_src/src/tools/uic/uic.cpp \
+	/Users/madblack-21/Github/mozc/src/third_party/qt_src/src/tools/uic/uic.h \
+	/Users/madblack-21/Github/mozc/src/third_party/qt_src/src/tools/uic/utils.h \
+	/Users/madblack-21/Github/mozc/src/third_party/qt_src/src/tools/uic/validator.cpp \
+	/Users/madblack-21/Github/mozc/src/third_party/qt_src/src/tools/uic/validator.h \
+	/opt/homebrew/Cellar/cmake/3.28.1/bin/cmake

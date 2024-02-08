@@ -1,0 +1,9 @@
+ExampleIconsPrivate_autogen/timestamp: \
+	/Users/madblack-21/Github/mozc/src/third_party/qt_src/cmake/ModuleDescription.json.in \
+	/Users/madblack-21/Github/mozc/src/third_party/qt_src/cmake/QtCMakePackageVersionFile.cmake.in \
+	/Users/madblack-21/Github/mozc/src/third_party/qt_src/cmake/QtFileConfigure.txt.in \
+	/Users/madblack-21/Github/mozc/src/third_party/qt_src/cmake/QtModuleConfig.cmake.in \
+	/Users/madblack-21/Github/mozc/src/third_party/qt_src/src/assets/icons/CMakeLists.txt \
+	/Users/madblack-21/Github/mozc/src/third_party/qt_src/src/corelib/Qt6CoreConfigureFileTemplate.in \
+	/opt/homebrew/Cellar/cmake/3.28.1/share/cmake/Modules/BasicConfigVersion-AnyNewerVersion.cmake.in \
+	/opt/homebrew/Cellar/cmake/3.28.1/bin/cmake

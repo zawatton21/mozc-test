@@ -1,0 +1,21 @@
+{
+    "classes": [
+        {
+            "className": "QPdfWriter",
+            "object": true,
+            "qualifiedClassName": "QPdfWriter",
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                },
+                {
+                    "access": "public",
+                    "name": "QPagedPaintDevice"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qpdfwriter.h",
+    "outputRevision": 68
+}

@@ -1,0 +1,4 @@
+qtpaths_autogen/timestamp: \
+	/Users/madblack-21/Github/mozc/src/third_party/qt_src/src/tools/qtpaths/CMakeLists.txt \
+	/Users/madblack-21/Github/mozc/src/third_party/qt_src/src/tools/qtpaths/qtpaths.cpp \
+	/opt/homebrew/Cellar/cmake/3.28.1/bin/cmake

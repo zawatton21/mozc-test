@@ -1,0 +1,29 @@
+{
+    "classes": [
+        {
+            "className": "QWidgetAction",
+            "object": true,
+            "qualifiedClassName": "QWidgetAction",
+            "slots": [
+                {
+                    "access": "private",
+                    "arguments": [
+                        {
+                            "type": "QObject*"
+                        }
+                    ],
+                    "name": "_q_widgetDestroyed",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QAction"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qwidgetaction.h",
+    "outputRevision": 68
+}

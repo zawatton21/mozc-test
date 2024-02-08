@@ -1,0 +1,61 @@
+{
+    "classes": [
+        {
+            "className": "QNonContiguousByteDevice",
+            "object": true,
+            "qualifiedClassName": "QNonContiguousByteDevice",
+            "signals": [
+                {
+                    "access": "public",
+                    "name": "readyRead",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "current",
+                            "type": "qint64"
+                        },
+                        {
+                            "name": "total",
+                            "type": "qint64"
+                        }
+                    ],
+                    "name": "readProgress",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        },
+        {
+            "className": "QNonContiguousByteDeviceIoDeviceImpl",
+            "object": true,
+            "qualifiedClassName": "QNonContiguousByteDeviceIoDeviceImpl",
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QNonContiguousByteDevice"
+                }
+            ]
+        },
+        {
+            "className": "QNonContiguousByteDeviceBufferImpl",
+            "object": true,
+            "qualifiedClassName": "QNonContiguousByteDeviceBufferImpl",
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QNonContiguousByteDevice"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qnoncontiguousbytedevice_p.h",
+    "outputRevision": 68
+}

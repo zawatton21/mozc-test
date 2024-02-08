@@ -1,0 +1,34 @@
+src/tools/uic/uic_autogen/timestamp: \
+  src/tools/uic/CMakeLists.txt \
+  src/tools/uic/cpp/cppwritedeclaration.cpp \
+  src/tools/uic/cpp/cppwritedeclaration.h \
+  src/tools/uic/cpp/cppwriteincludes.cpp \
+  src/tools/uic/cpp/cppwriteincludes.h \
+  src/tools/uic/cpp/cppwriteinitialization.cpp \
+  src/tools/uic/cpp/cppwriteinitialization.h \
+  src/tools/uic/customwidgetsinfo.cpp \
+  src/tools/uic/customwidgetsinfo.h \
+  src/tools/uic/databaseinfo.cpp \
+  src/tools/uic/databaseinfo.h \
+  src/tools/uic/driver.cpp \
+  src/tools/uic/driver.h \
+  src/tools/uic/main.cpp \
+  src/tools/uic/option.h \
+  src/tools/uic/python/pythonwritedeclaration.cpp \
+  src/tools/uic/python/pythonwritedeclaration.h \
+  src/tools/uic/python/pythonwriteimports.cpp \
+  src/tools/uic/python/pythonwriteimports.h \
+  src/tools/uic/shared/language.cpp \
+  src/tools/uic/shared/language.h \
+  src/tools/uic/shared/writeincludesbase.cpp \
+  src/tools/uic/shared/writeincludesbase.h \
+  src/tools/uic/treewalker.cpp \
+  src/tools/uic/treewalker.h \
+  src/tools/uic/ui4.cpp \
+  src/tools/uic/ui4.h \
+  src/tools/uic/uic.cpp \
+  src/tools/uic/uic.h \
+  src/tools/uic/utils.h \
+  src/tools/uic/validator.cpp \
+  src/tools/uic/validator.h \
+  /opt/homebrew/Cellar/cmake/3.28.1/bin/cmake

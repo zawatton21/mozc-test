@@ -1,0 +1,154 @@
+/****************************************************************************
+** Meta object code from reading C++ file 'qcocoascreen.mm'
+**
+** Created by: The Qt Meta Object Compiler version 68 (Qt 6.6.1)
+**
+** WARNING! All changes made in this file will be lost!
+*****************************************************************************/
+
+#include <QtCore/qmetatype.h>
+
+#if __has_include(<QtCore/qtmochelpers.h>)
+#include <QtCore/qtmochelpers.h>
+#else
+QT_BEGIN_MOC_NAMESPACE
+#endif
+
+
+#include <memory>
+
+#if !defined(Q_MOC_OUTPUT_REVISION)
+#error "The header file 'qcocoascreen.mm' doesn't include <QObject>."
+#elif Q_MOC_OUTPUT_REVISION != 68
+#error "This file was generated using the moc from 6.6.1. It"
+#error "cannot be used with the include files from this version of Qt."
+#error "(The moc has changed too much.)"
+#endif
+
+#ifndef Q_CONSTINIT
+#define Q_CONSTINIT
+#endif
+
+QT_WARNING_PUSH
+QT_WARNING_DISABLE_DEPRECATED
+QT_WARNING_DISABLE_GCC("-Wuseless-cast")
+namespace {
+
+#ifdef QT_MOC_HAS_STRINGDATA
+struct qt_meta_stringdata_CLASSCoreGraphicsENDCLASS_t {};
+static constexpr auto qt_meta_stringdata_CLASSCoreGraphicsENDCLASS = QtMocHelpers::stringData(
+    "CoreGraphics",
+    "DisplayChange",
+    "ReconfiguredWithFlagsMissing",
+    "Moved",
+    "SetMain",
+    "SetMode",
+    "Added",
+    "Removed",
+    "Enabled",
+    "Disabled",
+    "Mirrored",
+    "UnMirrored",
+    "DesktopShapeChanged"
+);
+#else  // !QT_MOC_HAS_STRING_DATA
+struct qt_meta_stringdata_CLASSCoreGraphicsENDCLASS_t {
+    uint offsetsAndSizes[26];
+    char stringdata0[13];
+    char stringdata1[14];
+    char stringdata2[29];
+    char stringdata3[6];
+    char stringdata4[8];
+    char stringdata5[8];
+    char stringdata6[6];
+    char stringdata7[8];
+    char stringdata8[8];
+    char stringdata9[9];
+    char stringdata10[9];
+    char stringdata11[11];
+    char stringdata12[20];
+};
+#define QT_MOC_LITERAL(ofs, len) \
+    uint(sizeof(qt_meta_stringdata_CLASSCoreGraphicsENDCLASS_t::offsetsAndSizes) + ofs), len 
+Q_CONSTINIT static const qt_meta_stringdata_CLASSCoreGraphicsENDCLASS_t qt_meta_stringdata_CLASSCoreGraphicsENDCLASS = {
+    {
+        QT_MOC_LITERAL(0, 12),  // "CoreGraphics"
+        QT_MOC_LITERAL(13, 13),  // "DisplayChange"
+        QT_MOC_LITERAL(27, 28),  // "ReconfiguredWithFlagsMissing"
+        QT_MOC_LITERAL(56, 5),  // "Moved"
+        QT_MOC_LITERAL(62, 7),  // "SetMain"
+        QT_MOC_LITERAL(70, 7),  // "SetMode"
+        QT_MOC_LITERAL(78, 5),  // "Added"
+        QT_MOC_LITERAL(84, 7),  // "Removed"
+        QT_MOC_LITERAL(92, 7),  // "Enabled"
+        QT_MOC_LITERAL(100, 8),  // "Disabled"
+        QT_MOC_LITERAL(109, 8),  // "Mirrored"
+        QT_MOC_LITERAL(118, 10),  // "UnMirrored"
+        QT_MOC_LITERAL(129, 19)   // "DesktopShapeChanged"
+    },
+    "CoreGraphics",
+    "DisplayChange",
+    "ReconfiguredWithFlagsMissing",
+    "Moved",
+    "SetMain",
+    "SetMode",
+    "Added",
+    "Removed",
+    "Enabled",
+    "Disabled",
+    "Mirrored",
+    "UnMirrored",
+    "DesktopShapeChanged"
+};
+#undef QT_MOC_LITERAL
+#endif // !QT_MOC_HAS_STRING_DATA
+} // unnamed namespace
+
+Q_CONSTINIT static const uint qt_meta_data_CLASSCoreGraphicsENDCLASS[] = {
+
+ // content:
+      12,       // revision
+       0,       // classname
+       0,    0, // classinfo
+       0,    0, // methods
+       0,    0, // properties
+       1,   14, // enums/sets
+       0,    0, // constructors
+       4,       // flags
+       0,       // signalCount
+
+ // enums: name, alias, flags, count, data
+       1,    1, 0x0,   11,   19,
+
+ // enum data: key, value
+       2, uint(CoreGraphics::ReconfiguredWithFlagsMissing),
+       3, uint(CoreGraphics::Moved),
+       4, uint(CoreGraphics::SetMain),
+       5, uint(CoreGraphics::SetMode),
+       6, uint(CoreGraphics::Added),
+       7, uint(CoreGraphics::Removed),
+       8, uint(CoreGraphics::Enabled),
+       9, uint(CoreGraphics::Disabled),
+      10, uint(CoreGraphics::Mirrored),
+      11, uint(CoreGraphics::UnMirrored),
+      12, uint(CoreGraphics::DesktopShapeChanged),
+
+       0        // eod
+};
+
+Q_CONSTINIT const QMetaObject CoreGraphics::staticMetaObject = { {
+    nullptr,
+    qt_meta_stringdata_CLASSCoreGraphicsENDCLASS.offsetsAndSizes,
+    qt_meta_data_CLASSCoreGraphicsENDCLASS,
+    nullptr,
+    nullptr,
+    qt_incomplete_metaTypeArray<qt_meta_stringdata_CLASSCoreGraphicsENDCLASS_t,
+        // enum 'DisplayChange'
+        QtPrivate::TypeAndForceComplete<CoreGraphics::DisplayChange, std::true_type>,
+        // Q_OBJECT / Q_GADGET
+        QtPrivate::TypeAndForceComplete<void, std::true_type>
+    >,
+    nullptr
+} };
+
+QT_WARNING_POP
